@@ -1,7 +1,7 @@
 
   .botones {
     background-size: 60% 80%;
-    background-image: url("../imagenes/iniciobgsvg.svg");
+    background-image: url("../assets/imagenes/iniciobgsvg.svg");
     background-origin: initial;
     background-position:center right;
     margin-box-left: 6rem;

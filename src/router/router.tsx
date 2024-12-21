@@ -1,11 +1,14 @@
-import { createBrowserRouter } from "react-router-dom";
 import { Radix } from "../Radix";
-import { ABout, Diseño, Domus, Ilustraciones,} from "../paginae";
+import { ABout } from "../paginae/about/About";
+import { Diseño } from "../paginae/diseño/Diseño";
+import { Domus } from "../paginae/domus/Domus";
+import { Ilustraciones } from "../paginae/ilustraciones/Ilustraciones";
 import { Fotografia } from '../paginae/fotografia/Fotografia';
 
 
+import { createHashRouter } from "react-router-dom";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     element: <Radix />,

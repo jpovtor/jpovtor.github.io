@@ -62,7 +62,7 @@ export const Fotografia = () => {
         <div className='hidden-arca'>
 
           <svg onClick={() => { if (numerator === 0 ) return; setNumerator(numerator -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='imagen' src={`./imagenes/fotografia/${ hidden[numerator]}.jpg`}/>
+          <img id='imagen' src={`./assets/imagenes/fotografia/${ hidden[numerator]}.jpg`}/>
           <svg onClick={() => {if (numerator === hidden.length -1) return; setNumerator (numerator +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
         </div>
@@ -75,7 +75,7 @@ export const Fotografia = () => {
         <div className='odradek-arca'>
 
           <svg onClick={() => { if (numerator1 === 0 ) return; setNumerator1(numerator1 -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>          
-          <img id='imagen' src={`./imagenes/fotografia/${ odradek[numerator1]}.jpg`}/>
+          <img id='imagen' src={`./assets/imagenes/fotografia/${ odradek[numerator1]}.jpg`}/>
           <svg onClick={() => {if (numerator1 === odradek.length -1) return; setNumerator1 (numerator1 +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
 
@@ -89,7 +89,7 @@ export const Fotografia = () => {
         <div className='escaner-arca'>
 
           <svg onClick={() => { if (numerator2 === 0 ) return; setNumerator2(numerator2 -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>          
-          <img id='imagen' src={`./imagenes/fotografia/${ escaner[numerator2]}.png`}/>
+          <img id='imagen' src={`./assets/imagenes/fotografia/${ escaner[numerator2]}.png`}/>
           <svg onClick={() => {if (numerator2 === escaner.length -1) return; setNumerator2 (numerator2 +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
 

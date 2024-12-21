@@ -56,7 +56,7 @@ export const Diseño = () => {
         <div className='diseñogen-arca'>
 
           <svg onClick={() => { if (numerator === 0 ) return; setNumerator(numerator -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='diseño' src={`./imagenes/diseño/${ diseñogen[numerator]}.png`}/>
+          <img id='diseño' src={`./assets/imagenes/diseño/${ diseñogen[numerator]}.png`}/>
           <svg onClick={() => {if (numerator === diseñogen.length -1) return; setNumerator (numerator +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
         </div>
@@ -66,7 +66,7 @@ export const Diseño = () => {
         <div className='portadas-arca'>
           
           <svg onClick={() => { if (numerator1 === 0 ) return; setNumerator1(numerator1 -1);}} className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='diseño' src={`./imagenes/diseño/${ portadas[numerator1]}.png`}/>
+          <img id='diseño' src={`./assets/imagenes/diseño/${ portadas[numerator1]}.png`}/>
           <svg onClick={() => {if (numerator1 === portadas.length -1) return; setNumerator1 (numerator1 +1)}}className='forward'xmlns="http://ww w.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
         </div>

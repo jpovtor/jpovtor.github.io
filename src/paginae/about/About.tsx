@@ -5,9 +5,9 @@ export const ABout = () => {
   return (
 
     <>
-      <div className="imagenes">
+      <div className="assets/imagenes">
         <div className="izquierda">
-          <img src="./imagenes/cv.png"/>
+          <img src="./assets/imagenes/cv.png"/>
         </div>
     </div>
 

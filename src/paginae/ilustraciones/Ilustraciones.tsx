@@ -76,7 +76,7 @@ export const Ilustraciones = () => {
         <div className='bugs-arca'>
 
           <svg onClick={() => { if (numerator === 0 ) return; setNumerator(numerator -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='ilustracion' src={`./imagenes/ilustraciones/${ bichines[numerator]}.png`}/>
+          <img id='ilustracion' src={`./assets/imagenes/ilustraciones/${ bichines[numerator]}.png`}/>
           <svg onClick={() => {if (numerator === bichines.length -1) return; setNumerator (numerator +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
         </div>
@@ -86,7 +86,7 @@ export const Ilustraciones = () => {
         <div className='comic-arca'>
           
           <svg onClick={() => { if (numerator1 === 0 ) return; setNumerator1(numerator1 -1);}} className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='ilustracion' src={`./imagenes/ilustraciones/${ comic[numerator1]}.png`}/>
+          <img id='ilustracion' src={`./assets/imagenes/ilustraciones/${ comic[numerator1]}.png`}/>
           <svg onClick={() => {if (numerator1 === comic.length -1) return; setNumerator1 (numerator1 +1)}}className='forward'xmlns="http://ww w.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
         </div>
@@ -95,7 +95,7 @@ export const Ilustraciones = () => {
        <section id="hustle">
         <div className='hustle-arca'>
           <svg onClick={() => { if (numerator2 === 0 ) return; setNumerator2(numerator2 -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='ilustracion' src={`./imagenes/ilustraciones/${ hustle[numerator2]}.png`}/>
+          <img id='ilustracion' src={`./assets/imagenes/ilustraciones/${ hustle[numerator2]}.png`}/>
           <svg onClick={() => {if (numerator2 === hustle.length -1) return; setNumerator2 (numerator2 +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
 
@@ -106,7 +106,7 @@ export const Ilustraciones = () => {
         <div className='otros-arca'>
           
           <svg onClick={() => { if (numerator3 === 0 ) return; setNumerator3(numerator3 -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='ilustracion' src={`./imagenes/ilustraciones/${ otros[numerator3]}.png`}/>
+          <img id='ilustracion' src={`./assets/imagenes/ilustraciones/${ otros[numerator3]}.png`}/>
           <svg onClick={() => {if (numerator3 === otros.length -1) return; setNumerator3 (numerator3 +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
 
@@ -117,7 +117,7 @@ export const Ilustraciones = () => {
         <div className='posters-arca'>
           
         <svg onClick={() => { if (numerator4 === 0 ) return; setNumerator4(numerator4 -1);}}className='retro' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-          <img id='ilustracion' src={`./imagenes/ilustraciones/${ posters[numerator4]}.png`}/>
+          <img id='ilustracion' src={`./assets/imagenes/ilustraciones/${ posters[numerator4]}.png`}/>
           <svg onClick={() => {if (numerator4 === posters.length -1) return; setNumerator4 (numerator4 +1)}} className='forward' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
         </div>
