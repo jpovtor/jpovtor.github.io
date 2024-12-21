@@ -1,0 +1,149 @@
+
+/* **** navegador **** */
+
+.navbar > ul a:hover {
+    padding: 0.8rem;
+    transition: all 0.5s linear;
+}
+
+.navbar > ul a:hover {
+    color: var(--color-light);
+    border-radius: 2rem;
+    line-height: 5rem;
+    transition: 0.7s;
+}
+
+
+.navbar > ul  a:hover {
+    line-height: 8rem;
+    display: inline;
+    padding: 3rem;
+    padding-top:7rem;
+    font-family:Heavitas, Daughter, Cartoon Check Black, THE BONT FOLD-BOLD;
+    margin: 5 auto;
+    top: 1.5%;
+    width: 100%;  
+}
+
+
+@media (min-width: 640px) {
+
+    .extra-nav {
+        border-radius: 0;
+        opacity: 1;
+    }
+
+    .navbar > ul {
+        padding: 4rem 1rem;
+        flex-direction: row;
+    }
+  
+  }
+
+
+/* **** Titulus**** */
+
+.titulus > h1 {
+    position: absolute;
+    top: 1.5%;
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+    font-family: Heavitas, Daughter, Cartoon Check Black, THE BONT FOLD-BOLD;
+    color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* **** bugs **** */
+
+  #bugs {
+    max-width: 100;
+    padding-top: 10rem;
+  }
+
+  /* **** arca **** */
+
+
+  .bugs-arca, .hustle-arca, .otros-arca, .comic-arca, .posters-arca {
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .bugs-arca > svg, .hustle-arca > svg, .otros-arca > svg, .comic-arca > svg, .posters-arca> svg {
+    width: 3rem ;
+    height: 3rem ;
+  }
+
+  .bugs-arca > img , .otros-arca > img, .hustle-arca > img, .posters-arca > img, .comic-arca >img {
+    max-height: 650px;
+    max-width: 650px;
+  }
+
+
+  .forward, .retro {
+    fill: #3b3b3b;
+    height: 8rem;
+    width: 8rem;   
+  }
+
+  .forward:hover , .retro:hover {
+    fill: #b2b2b2;
+  }
+
+  .titulus {
+    font-size: 4rem;
+  }
+
+  @media (max-width:645px) {
+
+
+    .bugs-arca > img , .otros-arca > img, .hustle-arca > img, .posters-arca > img, .comic-arca >img {
+      max-height: 400 px;
+      max-width: 400px ;
+    }
+
+    .titulus > h1{
+      font-size: 3rem;
+    }
+  
+    .navbar > ul > li {
+      justify-items: center;
+      align-items: center;
+      font-size: 1rem;
+      padding: 1rem;
+      flex-direction: row; 
+    }
+    
+      .bugs-arca, .otros-arca , .hustle-arca , .posters-arca, .comic-arca {
+      padding-top: 10rem;
+      padding-bottom: 2rem;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: flex-start;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem;
+    }
+
+    .bugs-arca {
+      padding-top: 45rem;
+    }
+
+    .bugs-arca > svg , .otros-arca > svg, .hustle-arca > svg, .posters-arca > svg, .comic-arca > svg {
+      width: 2rem ;
+      height: 2rem;
+      margin-right: 0.5rem;
+      margin-left: 0.7rem;
+    }
+  }
+
+  
+
+  

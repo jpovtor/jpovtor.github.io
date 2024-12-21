@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    cursor: url('public/cursorwhite.svg'), auto;
+}
+
+:root {
+    --color-tenebris: rgb(38,38,38);
+    --color-medium: #3b3b3b;
+    --color-light: #fff;
+}
+
+body {
+    background-color: white;
+    font-family: Type Round Regular Demo, sans-serif;
+}
+
+
+

@@ -1,0 +1,71 @@
+
+.titulus{
+    font-family: Heavitas, Daughter, Cartoon Check Black, THE BONT FOLD-BOLD;
+}
+
+.izquierda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    padding-top: 22rem; 
+}
+
+.izquierda > img {
+    max-height: 800px;
+    max-width: 800px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.svg-home > svg:hover {
+    fill: #3b3b3b;
+    line-height: 1rem;
+  }
+  
+  .svg-home > svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 2rem;
+}
+
+@media (max-width:645px) {
+
+    .svg-home > svg {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 10rem;
+    }
+
+    .navbar {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulus {
+        margin-left: 1rem;
+    }
+
+    .navbar > ul >li:hover {
+        background-color: none;
+    }
+
+    .izquierda {
+        padding-top: 30rem;
+    }
+
+    .izquierda > img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+}

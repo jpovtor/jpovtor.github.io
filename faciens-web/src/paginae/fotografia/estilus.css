@@ -1,0 +1,206 @@
+
+
+/* **** home icon **** */
+
+.svg-home > svg {
+    width: 3rem;
+    height: 3;
+    margin-left: 2rem;
+}
+
+
+/* **** navegador **** */
+
+.extra-nav {
+    background-color: #ffff;
+    color: #3b3b3b;
+    position: blocked;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    font-size: 4rem;   
+
+}
+
+.navbar  {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.navbar > ul a {
+    padding: 0.5rem;
+    transition: all 0.5s linear;
+}
+
+.navbar > ul li:hover {
+    color: var(--color-light);
+    background-color: var(--color-medium);
+    border-radius: 1rem;
+    line-height: 10rem;
+    transition: 0.7s;
+}
+
+.navbar > ul{
+    line-height: 6rem;
+    display: inline;
+    padding: 5rem;
+    font-family: Heavitas, Daughter, Cartoon Check Black, THE BONT FOLD-BOLD;
+    margin: 0 auto;
+    top: 1.5%;
+    width: 100%;
+    color: #3b3b3b;   
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 1.5%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    line-height: 4rem;
+}
+
+@media (min-width: 640px) {
+
+    .extra-nav {
+        width: 100%;
+        border-radius: 0;
+        opacity: 1;
+    }
+
+    .navbar > ul {
+        padding: 2rem 4rem;
+        flex-direction: row;
+    }
+
+ } 
+
+
+/* **** Titulus**** */
+
+.titulus-foto > h1 {
+    position: absolute;
+    top: 1.5%;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Heavitas, Daughter, Cartoon Check Black, THE BONT FOLD-BOLD;
+    color: #3b3b3b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+  /* **** bugs **** */
+
+  #odradek {
+    max-width: 100;
+    padding-top: 3rem;
+  }
+
+  
+  #hidden {
+    max-width: 100;
+    padding-top: 3rem;
+  }
+
+  #escaner {
+    max-width: 100;
+    padding-top: 3rem;
+  }
+ /* **** arca **** */
+
+
+  .odradek-arca , .hidden-arca, .escaner-arca  {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .odradek-arca > img , .hidden-arca > img, .escaner-arca > img {
+    max-width: 900px ;
+    max-height: 900px ;
+  }
+
+  .forward, .retro {
+    fill: #3b3b3b;
+    height: 20rem;
+    width: 20rem;   
+  }
+
+  .forward:hover , .retro:hover {
+    fill: #b2b2b2;
+  }
+
+  .titulushidden, .titulusodradek, .titulusescaner {
+    font-size: 2rem;
+    font-family: Typo Round Regular Demo, Daughter, sans-serif;
+    font-weight: bold;
+    padding-top: 27rem;   
+    margin-left: 16rem;
+    color: #3b3b3b;
+  }
+
+  .escaner-arca > svg, .odradek-arca > svg, .hidden-arca > svg {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  @media (max-width:645px) {
+
+    .escaner-arca > svg, .odradek-arca > svg, .hidden-arca > svg {
+      margin-left: 1rem;
+      margin-right: 0.5rem;
+      width: 3rem;
+      height: 3rem;
+    }
+
+    .odradek-arca > img , .hidden-arca > img, .escaner-arca > img {
+      max-width: 400px ;
+      max-height: 400px ;
+    }
+
+    .titulushidden{
+      padding-top: 45rem;
+    }
+
+    .titulushidden, .titulusodradek, .titulusescaner {
+      margin-left: 2rem;
+      font-size: 1.5rem;
+    }
+
+    .odradek-arca > img, .escaner-arca > img {
+      padding-top: 1rem;
+    }
+
+    .navbar {
+      font-size: 2.5rem ;
+    }
+  
+    .navbar > svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .hidden-arca {
+      padding-top: 5rem;
+    }
+
+    .titulusodradek, .titulusescaner {
+      padding-top: 5rem;
+    }
+
+  }
+
